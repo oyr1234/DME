@@ -8,7 +8,8 @@ import { ConsultationsComponent } from './consultations/consultations.component'
 import { AnalysesComponent } from './analyses/analyses.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AccessManagementComponent } from './access-management/access-management.component';
-
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 
 @NgModule({
@@ -23,7 +24,9 @@ import { AccessManagementComponent } from './access-management/access-management
     AccessManagementComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatCardModule,
+    MatButtonModule
   ]
 })
 export class PatientModule { }

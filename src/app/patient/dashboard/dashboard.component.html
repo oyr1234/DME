@@ -1,1 +1,33 @@
 <p>dashboard works!</p>
+<div class="dashboard">
+
+    <h1>Bienvenue 👋</h1>
+
+    <div class="cards">
+
+        <mat-card class="card">
+            <h3>Consultations</h3>
+            <p>Voir l’historique médical</p>
+            <button mat-raised-button color="primary" routerLink="/patient/dme">
+                Consulter
+            </button>
+        </mat-card>
+
+        <mat-card class="card">
+            <h3>Ordonnances</h3>
+            <p>Télécharger vos prescriptions</p>
+            <button mat-raised-button color="accent" routerLink="/patient/ordonnances">
+                Télécharger
+            </button>
+        </mat-card>
+
+        <mat-card class="card">
+            <h3>Contact Médecin</h3>
+            <p>Envoyer un message</p>
+            <button mat-raised-button color="warn">
+                Contacter
+            </button>
+        </mat-card>
+
+    </div>
+</div>
